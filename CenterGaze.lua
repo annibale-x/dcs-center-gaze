@@ -9,8 +9,8 @@
 
 	«DESCRIPTION»
 
-	This script allows to freely reposition and resize the command menu and radio messages.
-	By default it packs both containers to the center but editing the configuration file you are
+	This script allows to freely reposition and resize the command menu, radio messages and tutorial containers.
+	By default it packs the containers to the center but editing the configuration file you are
 	free to move the containters according to your preference. The size of the display window
 	is dynamically collected, so the script automatically adapts the containers position if the
 	resolution is changed or if you switch to window mode.
