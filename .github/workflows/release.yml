@@ -1,0 +1,35 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get version from tag
+        id: version
+        run: echo "VERSION=${GITHUB_REF_NAME}" >> $GITHUB_OUTPUT
+
+      - name: Build release zip
+        run: |
+          mkdir -p dist
+          zip dist/CenterGaze-${{ steps.version.outputs.VERSION }}.zip \
+            CenterGaze.lua \
+            CenterGaze.cfg \
+            README.md
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: CenterGaze ${{ steps.version.outputs.VERSION }}
+          body_path: CHANGELOG.md
+          files: dist/CenterGaze-${{ steps.version.outputs.VERSION }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
