@@ -1,24 +1,24 @@
 --[[
 
-	«CENTERED COMMAND MENU AND RADIO MESSAGES v0.07»
+	Â«CENTERED COMMAND MENU AND RADIO MESSAGES v0.07Â»
 
 	This EXPERIMENTAL hook patches some DCS UI files to relocate the command menu and radio messages
 	containers to other position (usually to the center of the viewport).
 
 	Passes the multiplayer integrity check.
 
-	«BACKGROUND»
+	Â«BACKGROUNDÂ»
 
 	I wrote this hook simply because I have a 57'' ultrawide monitor with a horizontal resolution of
 	7680px, and having the command menu and radio messages at the extreme edges of my field of view
 	forced me to constantly turn my head to the right and left like a fool to give commands or read
 	messages, losing focus on what was happening in the middle.
 
-	«INSTALLATION»
+	Â«INSTALLATIONÂ»
 
 	Copy the content of the zip file to your "Saved Games\DCS\Scripts\Hooks" folder.
 
-	«USAGE»
+	Â«USAGEÂ»
 
 	This hook comes with a preconfigured configuration file (with sane defaults) to relocate the
 	command menu and radio messages (usally to the center of the viewport as in the the attached
@@ -37,7 +37,7 @@
 	having an additional graphical tool on top of all the utilities you probably already use
 	(mod managers, kneeboard builders ect etc). Let me know your thoughts on this.
 
-	«CONFIGURATION OPTIONS»
+	Â«CONFIGURATION OPTIONSÂ»
 
 	- defaultCommandMenu = false
 		This boolean parameter controls whether to apply the custom configuration to the command menu
@@ -72,7 +72,7 @@
 	- systemMessagesWidth = 400
 		The size of the system messages container.
 
-	«NOTICE»
+	Â«NOTICEÂ»
 
 	There are no checks for potential overlaps between the command menu containers and radio messages
 	because I wouldn't know how to notify the user other than through an error in the log file, but I
@@ -82,18 +82,18 @@
 	had a chance to test this script as extensively as I would have liked/needed to, so please report
 	any problems or suggestions in the comments or via email to <annibale.x@gmail.com>.
 
-	«NOTES»
+	Â«NOTESÂ»
 
 	This hook automatically applies the patch after each DCS update or after any modification of the
 	config file.
 
-	«CREDITS»
+	Â«CREDITSÂ»
 
 	Special thanks to Racter for contributing the v0.07 patch, which added support for centering
 	game messages and tutorial containers (autoScrollTextTrig). A welcome improvement that I had
 	planned but never got around to implementing -- much appreciated!
 
-	«CHANGELOG»
+	Â«CHANGELOGÂ»
 
 	2026-03-18 v0.07 - Added the ability to center game messages, like tutorials (author - Racter)
 	2024-06-15 v0.04 - Fixed typo error
