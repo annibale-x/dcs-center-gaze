@@ -1,0 +1,9 @@
+# Serena IDE metadata
+.serena/
+
+# Old/archive versions
+old/
+
+# DCS hook runtime artifacts (patch backups and timestamps)
+*.bkp
+*.t
