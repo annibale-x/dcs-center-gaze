@@ -113,6 +113,20 @@ Before patching, a backup of each original file is saved alongside the hook. The
 
 ---
 
+## Contributing
+
+Contributions are welcome! If you want to report a bug, suggest an improvement or submit a patch:
+
+1. **Open an issue** on [GitHub](https://github.com/annibale-x/dcs-center-gaze/issues) describing the problem or idea
+2. **Fork** the repository and create a branch for your change
+3. **Submit a pull request** with a clear description of what you changed and why
+
+Please keep in mind that this hook targets the DCS World environment, so changes should be tested
+against an actual DCS installation before submitting. If you cannot test it yourself, mention it
+in the pull request and I will take care of it.
+
+---
+
 ## License
 
 This project is released as free software. Use at your own risk.
