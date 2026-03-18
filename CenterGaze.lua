@@ -87,10 +87,15 @@
 	This hook automatically applies the patch after each DCS update or after any modification of the
 	config file.
 
+	«CREDITS»
+
+	Special thanks to Racter for contributing the v0.07 patch, which added support for centering
+	game messages and tutorial containers (autoScrollTextTrig). A welcome improvement that I had
+	planned but never got around to implementing -- much appreciated!
+
 	«CHANGELOG»
 
 	2026-03-18 v0.07 - Added the ability to center game messages, like tutorials (author - Racter)
-
 	2024-06-15 v0.04 - Fixed typo error
 	2024-06-13 v0.03 - Full rewrite to manage the position and size of the command menu and radio message containers via config file
 	2024-06-08 v0.02 - Minor fix
